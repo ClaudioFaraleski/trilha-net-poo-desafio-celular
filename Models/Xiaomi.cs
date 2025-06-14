@@ -1,15 +1,15 @@
 namespace DesafioPOO.Models
 {
-    public class Iphone : Smartphone
+    public class Xiaomi : Smartphone
     {
-        public Iphone(string numero, string modelo, string imei, string memoria) 
+        public Xiaomi(string numero, string modelo, string imei, string memoria) 
             : base(numero, modelo, imei, memoria)
         {
         }
 
         public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine($"Instalando {nomeApp} no iPhone...");
+            Console.WriteLine($"Instalando {nomeApp} no Xiaomi...");
         }
     }
 }
